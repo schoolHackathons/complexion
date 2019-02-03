@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html>
-
+<link href="https://fonts.googleapis.com/css?family=Hind+Siliguri" rel="stylesheet">
 <style>
 
 .corners1 {
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -khtml-border-radius: 20px;
-    border-radius: 20px;
-    color: white;
-    padding: 20 px;
-    width: 100 px; 
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -khtml-border-radius: 30px;
+    border-radius: 30px;
+    color: grey;
+    padding: 100px 300px;
+    margin: 0px 100px 100px 0px;
+    width: 100px; 
     width: 50%;
-    height: 550 px;
+    height: 100px;
     background-color: black;
     text-align: center;
-    background-size: 300 px 100 px;
+    font-family: 'Hind Siliguri', sans-serif;
 }
 
 .corners2 {
-    -moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
-    -khtml-border-radius: 100px;
-    border-radius: 100px;
-    color: white;
-    padding: 200 px;
-    width: 100 px; 
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -khtml-border-radius: 30px;
+    border-radius: 30px;
+    color: grey;
+    padding: 100px 300px;
+    margin: 0px 0px 100px 100px;
+    width: 100px; 
     width: 50%;
-    height: 100%;
+    height: 100px;
     background-color: black;
-    float: right;
-    text-align: center;
-    background-size: 300 px 100 px;
+    text-align: top center; 
+    font-family: 'Hind Siliguri', sans-serif;
 }
 
 .button {
@@ -51,28 +52,43 @@
     justify-content: center;
     display: block;
     margin: 0 auto;
+    position: relative;
 }
+
+.ft {
+    color: grey;
+    text-align: center;
+    position: relative;
+}
+
 </style>
 <head>
+    <meta http-equiv="content-type" content="text.html; charset=utf-8">
+    <link rel='icon' href='https://trello-attachments.s3.amazonaws.com/5c552d76f7f802492cbebeaa/5c552f53d616856b4c886c04/1f7106aa76cd2259ef67e5e5635ccf6d/complexion_logo_browser__teeny-01.png' type='image/x-icon'/>
 <title>ProjectChanclaProfile</title>
 </head>
 <body>
 
-<div>
-<h1>My First Header</h1>
+<div style="display: flex; margin-top: 200px;">
+ <div style="float: left;">   
+<label class = "corners1"> Profile </label>
+<!-- top left half of page --> </div>
 
-    
-<p class = "corners1"> Profile </p>
-<!-- top left half of page --> 
+<div style="float: right;">
+<label class = "corners2"> Clothes </label>
+<!-- top right half/b5dy --></div>
 
-<p class = "corners2"> Clothes </p>
-    <!-- top right half/b5dy -->
+<input position= relative; type="file" id="myFile">
 
 <button onclick="window.location.href = 'file:///C:/Users/axelr/Desktop/Project%20Chancla.html';" class = "button">Go back to home</button>
 
 
 
 
-</div>
+</div>  
 
+<footer>
+    <p class="ft"> &#169 2019 Las Chanclas, Inc. MangoHacks </p>
+</footer>
+    
 </html>

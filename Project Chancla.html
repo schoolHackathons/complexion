@@ -1,20 +1,21 @@
 <!DOCTYPE html>
+<html>
 <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri" rel="stylesheet">
 <style>
 
 .shirt1 {
-    color: black;
-    font-size: 60px;
-    text-align: center;
-    font-family: 'Hind Siliguri', sans-serif;
-}
-
-.shirt2 {
-    color: black;
+    color: grey;
     font-size: 25px;
     text-align: center;
     font-family: 'Hind Siliguri', sans-serif;
 }
+.shirt2 {
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
 
 .button {
     background-color: #ED9349;
@@ -47,23 +48,45 @@ img {
     background: repeating-linear-gradient(#C0F1F1 0%,  #ED9349 100%);
 }
 
+.background {
+    background-color:white;
+    border-radius: 12px;
+    padding: 35px 35px;
+    width: 650px;
+    height: 500px;    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;   
+}
+
+.ft {
+    color: grey;
+    text-align: center;
+}
+
 </style>
-<html>
 <head>
+    <meta http-equiv="content-type" content="text.html; charset=utf-8">
+    <link rel='icon' href='https://trello-attachments.s3.amazonaws.com/5c552d76f7f802492cbebeaa/5c552f53d616856b4c886c04/1f7106aa76cd2259ef67e5e5635ccf6d/complexion_logo_browser__teeny-01.png' type='image/x-icon'/>
 <title>Project Chancla</title>
 </head>
 <body id = "grad"> 
 
-<div> 
+<div class="background"> 
 
-<img src="https://trello-attachments.s3.amazonaws.com/5c552d76f7f802492cbebeaa/5c552f53d616856b4c886c04/9bde8e89ae7fa5b9e1e6d40180171ff2/complexion_logo-01.png" alt="Logo" width="450" height="200">
+<img src="https://trello-attachments.s3.amazonaws.com/5c552d76f7f802492cbebeaa/5c552f53d616856b4c886c04/ced40d13d4ab88c0a77ba77552f5076d/complexion_logo-01.png" alt="Logo" width="450" height="200">
 
-<p class="shirt2">Welcome to Complexion where you can pick your perfect wardrobe. <br>
-To begin click the button below.
-</p>
+<p class="shirt1">Welcome to Complexion where you can pick your perfect wardrobe. </p>
+
+<p class = "shirt2">To begin click the button below.</p>
 <button onclick="window.location.href = 'file:///C:/Users/axelr/Desktop/ProjectChanclaProfile.html';" class = "button">Profile</button>
 
 </div>
+<footer>
+    <p class="ft"> &#169 2019 Las Chanclas, Inc. MangoHacks </p>
+</footer>
 
 </body>
 </html>
